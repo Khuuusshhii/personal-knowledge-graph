@@ -32,3 +32,7 @@ app.include_router(graph.router)
 def root():
     """Health-check endpoint."""
     return {"status": "ok", "message": "Personal Knowledge Graph API is running."}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8000)

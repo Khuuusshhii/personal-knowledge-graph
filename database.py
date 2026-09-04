@@ -5,7 +5,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-# SQLite database file will be created in the backend directory.
+# SQLite database file will be created in the project root directory.
 DATABASE_URL = "sqlite:///./knowledge_graph.db"
 
 # `connect_args` is required for SQLite so the same connection can be
