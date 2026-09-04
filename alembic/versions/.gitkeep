@@ -1,0 +1,3 @@
+# Placeholder — Alembic will auto-generate migration files here.
+# The first real migration (creating notes, tags, note_tags, note_links tables)
+# will be created in Phase 2 after the ORM models are defined.

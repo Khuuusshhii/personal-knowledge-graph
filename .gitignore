@@ -1,0 +1,25 @@
+# Python virtual environments
+venv/
+env/
+knowledge_sdk/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test cache
+.pytest_cache/
+
+# SQLite database
+knowledge_graph.db
+*.db
+
+# Node modules
+frontend/node_modules/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
